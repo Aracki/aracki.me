@@ -1,7 +1,7 @@
 :root { font-size: 1.125rem; }
-@media (min-width: 600px) { :root { font-size: 1.5rem; } }
-@media (min-width: 900px) { :root { font-size: 1.75rem; } }
-@media (min-width: 1200px) { :root { font-size: 2rem; } }
+@media (min-width: 600px) { :root { font-size: 0.75rem; } }
+@media (min-width: 900px) { :root { font-size: 1rem; } }
+@media (min-width: 1200px) { :root { font-size: 1.25rem; } }
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -133,64 +133,6 @@ canvas {
   position: fixed;
   bottom: 0;
   width: 100%;
-    padding-bottom: 2em;
-    padding-left: 3em;
-}
-
-.logo a {
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
-.logo a:hover {
-  /*border-color: #cc9900;*/
-  background-color: #cc9900;
-}
-
-.logo-fb a {
-  background-image: url('../img/logo/f1.svg');
-}
-.logo-fb {
-  float: left;
-}
-.logo-linkedin {
-  float: right;
-}
-.logo-twitter {
-  float: right;
-}
-
-.logo-linkedin a {
-  background-image: url('../img/logo/linkedin.svg');
-  fill: red;
-}
-.logo-twitter a {
-  background-image: url('../img/logo/twitter.svg');
-}
-.logo-github a {
-  background-image: url('../img/logo/github.svg');
-}
-.logo-lastfm a {
-  background-image: url('../img/logo/lastfm.svg');
-}
-.logo-gmail a {
-  background-image: url('../img/logo/gmail.svg');
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-html {
-    background: #0e1a25;
-    font-size: 0.625em;
 }
 
 .soc {
@@ -218,8 +160,8 @@ html {
     width: 9.6rem;
 }
 .soc svg {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
 }
 .soc em {
     font-size: 14px;
