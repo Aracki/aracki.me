@@ -131,8 +131,9 @@ canvas {
 
 .social_media {
   position: fixed;
-  bottom: 0;
-  width: 100%;
+    bottom: 0;
+  /*top: 30%;*/
+  /*width: 100%;*/
 }
 
 .soc {
@@ -154,14 +155,15 @@ canvas {
 }
 .soc a {
     position: relative;
-    height: 96px;
-    height: 9.6rem;
-    width: 96px;
-    width: 9.6rem;
+    height: 50px;
+    height: 5rem;
+    width: 50px;
+    width: 5rem;
 }
 .soc svg {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
+    color: #2626d9;
 }
 .soc em {
     font-size: 14px;
@@ -175,25 +177,29 @@ canvas {
     left: 0;
 }
 
-.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
-    border-radius: 100%;
-    color: #0e1a25;
-    fill: #0e1a25;
-    -webkit-transform: scale(1.25);
-    transform: scale(1.25);
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover,
+.icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover,
+.icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover,
+.icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover,
+.icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover,
+.icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+    border-radius: 60%;
+    color: #2691d9;
+    fill: #2691d9;
+    background: #2691d9;
+
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
     -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
     transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 
-.icon-1 {
-    color: #d94a26;
-    fill: #d94a26;
-}
-.icon-1:hover {
-    background: #d94a26;
-}
+/*.icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8 {*/
+    /*color: #2691d9;*/
+    /*fill: #2691d9;*/
+/*}*/
 
 .icon-2 {
     color: #d96e26;
