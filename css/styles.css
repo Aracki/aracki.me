@@ -148,7 +148,7 @@ canvas {
 .soc li {
     display: inline-block;
     margin: 12px;
-    margin: 1.2rem;
+    /*margin: 1.2rem;*/
 }
 .soc a, .soc svg {
     display: block;
@@ -163,7 +163,7 @@ canvas {
 .soc svg {
     height: 70%;
     width: 70%;
-    color: #2626d9;
+    color: #0e1a25;
 }
 .soc em {
     font-size: 14px;
@@ -183,23 +183,16 @@ canvas {
 .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover,
 .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover,
 .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
-    border-radius: 60%;
-    color: #2691d9;
-    fill: #2691d9;
-    background: #2691d9;
-
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-    transition: background-color 0.5s, transform 0.5s ease-out;
-    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    border: 2px dotted;
+    border-radius: 15px;
+    fill: #0e1a25;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: background-color 0.25s, -webkit-transform 0.25s ease-out;
+    transition: background-color 0.25s, -webkit-transform 0.25s ease-out;
+    transition: background-color 0.25s, transform 0.25s ease-out;
+    transition: background-color 0.25s, transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
-
-/*.icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8 {*/
-    /*color: #2691d9;*/
-    /*fill: #2691d9;*/
-/*}*/
 
 .icon-2 {
     color: #d96e26;
