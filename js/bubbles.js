@@ -25,8 +25,7 @@ window.onload = function() {
     'Hey there 👋',
     'I\'m Ivan Aracki',
     'I write software',
-    'You can contact me at <a href="mailto:aracki.ivan@gmail.com">aracki.ivan@gmail.com</a>',
-    '<a target="_blank" href="https://twitter.com/Raca_42">twitter.com/Raca_42</a><br><a target="_blank" href="https://github.com/Aracki">github.com/Aracki</a>',
+    'You can contact me at aracki.ivan@gmail.com</>',
     getCurrentTime(),
     '👀'
   ];
