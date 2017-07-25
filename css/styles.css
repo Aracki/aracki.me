@@ -132,6 +132,8 @@ canvas {
 .social_media {
   position: fixed;
     bottom: 0;
+    border: 5px dashed;
+    border-radius: 15px;
   /*top: 30%;*/
   /*width: 100%;*/
 }
