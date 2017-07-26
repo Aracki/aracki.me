@@ -130,12 +130,8 @@ canvas {
 }
 
 .social_media {
-  position: fixed;
+    position: fixed;
     bottom: 0;
-    border: 5px dashed;
-    border-radius: 15px;
-  /*top: 30%;*/
-  /*width: 100%;*/
 }
 
 .soc {
@@ -149,8 +145,7 @@ canvas {
 }
 .soc li {
     display: inline-block;
-    margin: 12px;
-    /*margin: 1.2rem;*/
+    margin: 1.1rem;
 }
 .soc a, .soc svg {
     display: block;
