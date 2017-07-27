@@ -132,7 +132,6 @@ canvas {
 .social_media {
     position: fixed;
     bottom: 0;
-    /*box-shadow: inset 0 0 30px grey, inset 0 0 30px grey, inset 0 0 30px grey;*/
 }
 
 .soc {
@@ -140,8 +139,6 @@ canvas {
     font-size: 0;
     list-style: none;
     margin: 0;
-    padding: 48px;
-    padding: 4.8rem;
     text-align: center;
 }
 .soc li {
@@ -153,15 +150,12 @@ canvas {
 }
 .soc a {
     position: relative;
-    height: 50px;
-    height: 5rem;
-    width: 50px;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .soc svg {
-    height: 70%;
-    width: 70%;
-    color: #0e1a25;
+    height: 60%;
+    width: 60%;
 }
 .soc em {
     font-size: 14px;
