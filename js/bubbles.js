@@ -1,5 +1,5 @@
 /*
- * This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. 
+ * This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/.
  * Copyright (c) 2016 Ivan Aracki
  */
@@ -23,8 +23,8 @@ window.onload = function() {
 
   var messages = [
     'Hey there 👋',
-    'I\'m software developer 💻 from Belgrade 🇷🇸',
-    'You can contact me at aracki.ivan@gmail.com 💌',
+    'I\'m software developer from Belgrade',
+    'You can contact me at aracki.ivan@gmail.com',
     getCurrentTime(),
     '⛵ I.A.'
   ];
