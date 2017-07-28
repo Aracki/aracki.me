@@ -16,9 +16,9 @@ window.onload = function() {
     var hours =  date.getHours();
     var minutes =  date.getMinutes();
     var current = hours + (minutes * .01);
-    if (current >= 5 && current < 19) return 'Have a nice day';
-    if (current >= 19 && current < 22) return 'Have a nice evening';
-    if (current >= 22 || current < 5) return 'Have a good night';
+    if (current >= 5 && current < 19) return 'Have a nice day 🌅';
+    if (current >= 19 && current < 22) return 'Have a nice evening 🌇';
+    if (current >= 22 || current < 5) return 'Have a good night 🌌';
   };
 
   var messages = [
@@ -26,7 +26,7 @@ window.onload = function() {
     'I\'m software developer from Belgrade',
     'You can contact me at aracki.ivan@gmail.com',
     getCurrentTime(),
-    '⛵ I.A.'
+    'I.A.'
   ];
 
   var getFontSize = function() {
@@ -59,7 +59,7 @@ window.onload = function() {
     }
   };
 
-  var getDimentions = function(elements) {
+  var getDimensions = function(elements) {
     return dimensions = {
       loading: {
         w: '4rem',
@@ -81,7 +81,7 @@ window.onload = function() {
     var elements = createBubbleElements(message, position);
     messagesEl.appendChild(elements.bubble);
     messagesEl.appendChild(document.createElement('br'));
-    var dimensions = getDimentions(elements);
+    var dimensions = getDimensions(elements);
     elements.bubble.style.width = '0rem';
     elements.bubble.style.height = dimensions.loading.h;
     elements.message.style.width = dimensions.message.w;
@@ -117,7 +117,7 @@ window.onload = function() {
       scale: [.5, 1],
       duration: 400,
       delay: 25,
-      easing: 'easeOutElastic',
+      easing: 'easeOutElastic'
     });
     var dotsPulse = anime({
       targets: elements.bubble.querySelectorAll('b'),
@@ -141,7 +141,7 @@ window.onload = function() {
             anime({
               targets: elements.message,
               opacity: [0, 1],
-              duration: 300,
+              duration: 100
             });
           }
         }
