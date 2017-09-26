@@ -1,8 +1,12 @@
-#Ivan Aracki
+# Personal mini web presentation
 
- http://aracki.me
+#### Other people code I was using:
 
-![Alt text](/img/space-ship.png "Space ship")
+- #### http://animejs.com/
+- #### http://vincentgarreau.com/particles.js/
+
+
+http://aracki.me -> ![Alt text](/img/space-ship.png "Space ship") 
 
  Personal mini website
  
