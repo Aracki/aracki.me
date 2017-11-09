@@ -13,5 +13,6 @@ function httpGetAsync(theUrl, callback) {
             callback(xmlHttp.responseText);
     };
     xmlHttp.open("GET", theUrl, true); // true for asynchronous
+    xmlHttp.setRequestHeader("Access-Control-Allow-Origin", '*');
     xmlHttp.send("ivan");
 }
