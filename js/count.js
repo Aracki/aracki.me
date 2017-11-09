@@ -14,5 +14,7 @@ function httpGetAsync(theUrl, callback) {
     };
     xmlHttp.open("GET", theUrl, true); // true for asynchronous
     xmlHttp.setRequestHeader("Access-Control-Allow-Origin", '*');
+    xmlHttp.setRequestHeader("Access-Control-Allow-Methods", 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
+    xmlHttp.setRequestHeader("Access-Control-Allow-Headers", 'Origin, Content-Type, X-Auth-Token');
     xmlHttp.send("ivan");
 }
