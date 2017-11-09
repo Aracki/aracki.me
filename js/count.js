@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     // redirect to 7777 port
     // ping golang counter
-    httpGetAsync("http://www.google.rs", function (res) {
+    httpGetAsync("http://www.aracki.me:7777", function (res) {
         alert(res);
     })
 });
