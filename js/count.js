@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     // ping golang counter
     getRequest("http://www.aracki.me:7777/count", function (request) {
         var response = request.currentTarget.response || request.target.responseText;
-        console.log(response);
+
+        document.getElementById("counterText")
+            .innerHTML = "This page has been visited by " + response + " people";
     })
 });
 

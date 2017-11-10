@@ -35,6 +35,13 @@ canvas {
     bottom: 0;
 }
 
+.counterBlock {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    color: whitesmoke;
+}
+
 .soc {
     display: block;
     font-size: 0;
