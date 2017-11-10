@@ -52,6 +52,8 @@ window.onload = function() {
     bubbleEl.appendChild(loadingEl);
     bubbleEl.appendChild(messageEl);
     bubbleEl.style.opacity = 0;
+    bubbleEl.style.color = '#202d19';
+
     return {
       bubble: bubbleEl,
       message: messageEl,

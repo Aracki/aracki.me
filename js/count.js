@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var response = request.currentTarget.response || request.target.responseText;
 
         document.getElementById("counterText")
-            .innerHTML = "This page has been visited by " + response + " people";
+            .innerHTML = "Unique visitors: " + response;
     })
 });
 

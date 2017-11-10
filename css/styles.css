@@ -37,9 +37,14 @@ canvas {
 
 .counterBlock {
     position: fixed;
-    right: 5%;
-    top: 5%;
-    color: whitesmoke;
+    right: 2%;
+    top: 2%;
+}
+
+#counterText {
+    color: #48633c;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
 }
 
 .soc {
