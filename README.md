@@ -9,8 +9,11 @@
 </br> </br>
 
 http://aracki.me -> ![Alt text](/img/space-ship.png "Space ship") 
+ 
+ ## Notice
 
- Personal mini website
+Feel free to use parts of this repo for your project. 
+If you have any issues, just feel free and open it in this repository, thanks!
  
  ## License
 
