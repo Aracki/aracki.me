@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 body {
+  background: url('../img/space.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,9 +21,55 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@media only screen
+and (min-device-width : 250px)
+and (max-device-width : 736px)
+and (orientation : landscape) { /* Mobile STYLES GO HERE */}
+
+@media only screen
+and (min-device-width : 250px)
+and (max-device-width : 736px)
+and (orientation : portrait) { /* Mobile STYLES GO HERE */
+
+    body {
+        height: 700px;
+    }
+
+    .counterBlock {
+        font-size: 0.7em;
+        position: fixed;
+        right: 2%;
+        top: 2%;
+    }
+
+    social_media {
+        position: fixed;
+        /*max-height: 30%;*/
+        bottom: 0;
+        width: 100%;
+    }
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
+}
+
+@media only screen
+and (min-device-width : 736px)
+and (max-device-width : 1736px)
+and (orientation : landscape) { /* Laptop STYLES GO HERE */
+
+    .counterBlock {
+        position: fixed;
+        right: 2%;
+        top: 2%;
+    }
+
+    .social_media {
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 #particles-js {
@@ -30,21 +81,9 @@ canvas {
     background-color: transparent;
 }
 
-.social_media {
-    position: fixed;
-    bottom: 0;
-}
-
-.counterBlock {
-    position: fixed;
-    right: 2%;
-    top: 2%;
-}
-
 #counterText {
     color: #48633c;
     font-family: 'Space Mono', monospace;
-    font-weight: bold;
 }
 
 .soc {
