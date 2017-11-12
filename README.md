@@ -1,7 +1,8 @@
 # Personal mini web presentation
 
-#### Other people code I was using:
+## Other people code I was using:
 
+- #### https://github.com/matoous/visigo
 - #### http://animejs.com/
 - #### http://vincentgarreau.com/particles.js/
 
@@ -11,5 +12,7 @@ http://aracki.me -> ![Alt text](/img/space-ship.png "Space ship")
 
  Personal mini website
  
- Project is licensed under the MIT License
- Copyright (c) 2017 Ivan Aracki 
+ ## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Copyright (c) 2017 Ivan Aracki 
