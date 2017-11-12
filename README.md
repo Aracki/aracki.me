@@ -2,9 +2,9 @@
 
 ## Other people code I was using:
 
-- #### https://github.com/matoous/visigo
-- #### http://animejs.com/
-- #### http://vincentgarreau.com/particles.js/
+- #### https://github.com/matoous/visigo - Unique visitor counter implemented in Golang
+- #### https://github.com/juliangarnier/anime - Animations for bubbles
+- #### https://github.com/VincentGarreau/particles.js/ - Particles animation on canvas
 
 </br> </br>
 
