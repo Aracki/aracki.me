@@ -42,9 +42,8 @@ and (orientation : portrait) { /* Mobile STYLES GO HERE */
         top: 2%;
     }
 
-    social_media {
+    .social_media {
         position: fixed;
-        /*max-height: 30%;*/
         bottom: 0;
         width: 100%;
     }
