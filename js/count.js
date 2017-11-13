@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var response = request.currentTarget.response || request.target.responseText;
 
         document.getElementById("counterText")
-            .innerHTML = "Unique visitors: " + response;
+            .innerHTML = "[" + response + " unique visitors]";
     })
 });
 
