@@ -49,6 +49,18 @@ and (orientation : portrait) { /* Mobile STYLES GO HERE */
     }
 }
 
+.social_media {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.counterBlock {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+}
+
 canvas {
     display: block;
     vertical-align: bottom;
