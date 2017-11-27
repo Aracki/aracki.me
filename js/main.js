@@ -9,10 +9,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     })
 });
 
-$('#yt_text').on('click', function() {
-    window.location.href = "http://stackoverflow.com";
-})
-
 function getRequest(url, success) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url);
@@ -20,3 +16,23 @@ function getRequest(url, success) {
     xhr.send();
     return xhr;
 }
+
+$('#yt_text').on('click', function() {
+    window.location.href = "yt.html";
+})
+
+$('#yt1').on('click', function() {
+    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNycqalON_hUofYc05QDvBZxy';
+})
+
+$('#yt2').on('click', function() {
+    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyeLB8CoFDMjbctA749M42tq';
+})
+
+$('#yt3').on('click', function() {
+    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyfmmQnv8oTFeio-8_HEZrIF';
+})
+
+$('#back_to_home').on('click', function() {
+    window.location.href = 'index.html';    
+});
