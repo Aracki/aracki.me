@@ -107,6 +107,10 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
     padding-left: 8%;
 }
 
+#yt_text:hover{
+    cursor:pointer;
+}
+
 .soc {
     display: block;
     font-size: 0;

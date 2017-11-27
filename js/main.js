@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 $('#yt_text').on('click', function() {
-    //todo NEW PAGE
+    window.location.href = "http://stackoverflow.com";
 })
 
 function getRequest(url, success) {
