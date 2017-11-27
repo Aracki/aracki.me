@@ -40,11 +40,11 @@ and (orientation : portrait) { /* Mobile portrait STYLES GO HERE */
         height: 700px;
     }
 
-    .counterBlock {
+    /* .right_side_text {
         position: fixed;
         right: 2%;
         top: 2%;
-    }
+    } */
 
     .social_media {
         position: fixed;
@@ -58,11 +58,11 @@ and (min-device-width : 736px)
 and (max-device-width : 1736px)
 and (orientation : landscape) { /* Laptop STYLES GO HERE */
 
-    .counterBlock {
+    /* .right_side_text {
         position: fixed;
         right: 2%;
         top: 2%;
-    }
+    } */
 
     .social_media {
         position: fixed;
@@ -76,12 +76,6 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
     width: 100%;
 }
 
-.counterBlock {
-    position: fixed;
-    right: 2%;
-    top: 2%;
-}
-
 #particles-js {
     position: fixed;
     width: 100%;
@@ -91,10 +85,26 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
     background-color: transparent;
 }
 
-#counterText {
+.right_side_text {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+
     color: #48633c;
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;
+}
+
+#counter_text {
+    float: left;
+    clear: left;
+}
+
+#yt_text {
+    float: left;
+    clear: left;
+    padding-top: 15%;
+    padding-left: 8%;
 }
 
 .soc {

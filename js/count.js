@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     getRequest("http://www.aracki.me:7777/count", function (request) {
         var response = request.currentTarget.response || request.target.responseText;
 
-        document.getElementById("counterText")
+        document.getElementById("counter_text")
             .innerHTML = "[" + response + " unique visitors]";
     })
 });
