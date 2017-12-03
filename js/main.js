@@ -12,10 +12,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     })
 });
 
-// TODO NE RADI KADA JE DUGACAK ID
-// TODO NE RADI KADA JE DUGACAK ID
-// TODO NE RADI KADA JE DUGACAK ID
-
 function getRequest(url, success) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url);
@@ -36,38 +32,7 @@ $('#yt_text').on('click', function () {
     window.location.href = "yt.html";
 })
 
-$('#yt_music.all').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNycqalON_hUofYc05QDvBZxy';
-})
 
-// YT PLAYLISTS
-$('#yt_disco.love').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyeBSLQ7tcvAebXORqCCe1D0';
-})
-
-$('#yt_dark.electronic').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyd1HMeDgLPyUU9lisSChdFv';
-})
-
-$('#yt_techno').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNycXX3SzjVkuAbH6D_y2IFVH';
-})
-
-$('#yt_electronic.deep.progressive').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNydn7k9ciczUXmmaxu6Z5iuX';
-})
-
-$('#yt_techno.techhouse').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyd8uSlKryP20EOkCHZav367';
-})
-
-$('#yt_psytrance.progressive').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyfRGdF8QsNWfxITKanVR3IU';
-})
-
-$('#yt_domestic.grooves').on('click', function () {
-    window.location.href = 'https://www.youtube.com/playlist?list=PLixj0sfBDNyfSsjZz4e052dy6bBmjAYkO';
-})
 
 $('#yt_slow.melodies').on('click', function () {
     window.location.href = 'https://www.youtube.com/playlist?list=PL759DEC41B8F2BFD4';

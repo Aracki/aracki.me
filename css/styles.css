@@ -102,12 +102,12 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
 #back_to_home1:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: #607c54;
+    color: rgb(136, 189, 52);
 }
 #back_to_home2:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: #607c54;
+    color: rgb(136, 189, 52);
 }
 
 #yt_text {
@@ -133,6 +133,10 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
     color: #48633c;
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;
+}
+
+a{
+    color: #48633c;
 }
 
 .left_side_yt {
@@ -162,7 +166,7 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
 [id^=yt]:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: #607c54;
+    color: rgb(136, 189, 52);
 }
 /* .............................. */
 
