@@ -122,53 +122,6 @@ and (orientation : landscape) { /* Laptop STYLES GO HERE */
     text-decoration: underline;
     color: #607c54;
 }
-/* .............................. */
-
-/* For all youtube playlist spans */
-.right_side_yt {
-    position: fixed;
-    right: 2%;
-    top: 2%;
-
-    color: #48633c;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.8rem;
-}
-
-a{
-    color: #48633c;
-}
-
-.left_side_yt {
-    position: fixed;
-    left: 2%;
-    top: 2%;
-
-    color: #48633c;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.8rem;
-}
-
-.left_side_yt span {
-    float: left;
-    clear: left;
-    padding-top: 15%;
-    padding-left: 8%;
-}
-
-.right_side_yt span {
-    float: right;
-    clear: right;
-    padding-top: 15%;
-    padding-left: 8%;
-}
-
-[id^=yt]:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: rgb(136, 189, 52);
-}
-/* .............................. */
 
 .soc {
     display: block;
