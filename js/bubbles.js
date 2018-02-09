@@ -22,7 +22,7 @@ window.onload = function() {
   };
 
   var messages = [
-    'Hey there \\\ Zdravo 👋',
+    'Hey there \\\ Hej tamo 👋',
     'I\'m software developer from Belgrade',
     'You can contact me at aracki.ivan@gmail.com',
     getCurrentTime(),
